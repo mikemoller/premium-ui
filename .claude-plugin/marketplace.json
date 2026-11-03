@@ -1,0 +1,27 @@
+{
+  "name": "ui-ux-skills",
+  "owner": {
+    "name": "Mike Møller Madsen"
+  },
+  "metadata": {
+    "description": "Agent skills for making web and mobile apps feel premium and well thought-out",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ui-ux-skills",
+      "description": "Motion, perceived performance, mobile feel, interface craft and UX psychology, each rule traced to its primary source",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/premium-feel",
+        "./skills/ui-motion",
+        "./skills/perceived-performance",
+        "./skills/mobile-native-feel",
+        "./skills/interface-craft",
+        "./skills/ux-psychology",
+        "./skills/aha-moment"
+      ]
+    }
+  ]
+}

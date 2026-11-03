@@ -1,0 +1,18 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Premium feel",
+      "description": "Make web and mobile apps feel fast, native and carefully made, with every rule traced to its primary source.",
+      "skills": [
+        "premium-feel",
+        "ui-motion",
+        "perceived-performance",
+        "mobile-native-feel",
+        "interface-craft",
+        "ux-psychology",
+        "aha-moment"
+      ]
+    }
+  ]
+}

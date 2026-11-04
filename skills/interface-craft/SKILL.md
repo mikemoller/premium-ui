@@ -117,3 +117,5 @@ The evidence is mixed. People rate attractive interfaces as easier to use, and i
 - [ ] Labels are specific verbs; one noun per concept.
 
 Full notes and every source: [references/sources.md](references/sources.md).
+
+**Finish with `taste`.** Any screen or component you build or change with this skill gets the `taste` pass before you call it done.

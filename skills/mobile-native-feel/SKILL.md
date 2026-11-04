@@ -126,3 +126,5 @@ Rules both platforms share ([Apple, Playing haptics](https://developer.apple.com
 - [ ] Screens people read hands-free stay awake; offline state is stated and writes queue.
 
 Full notes and every source: [references/sources.md](references/sources.md).
+
+**Finish with `taste`.** Any screen or component you build or change with this skill gets the `taste` pass before you call it done.

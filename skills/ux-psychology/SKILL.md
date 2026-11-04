@@ -75,3 +75,5 @@ Sites like [Laws of UX](https://lawsofux.com/) are useful indexes, but their pag
 5. Say how strong the evidence is when you use it.
 
 The source notes are in [references/sources.md](references/sources.md).
+
+**Finish with `taste`.** Any screen or component you build or change with this skill gets the `taste` pass before you call it done.

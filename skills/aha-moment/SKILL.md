@@ -222,3 +222,5 @@ Worst moment: <...>
 ## Next
 <experiment or cohort comparison, and when to re-check>
 ```
+
+**Finish with `taste`.** Any screen or component you build or change with this skill gets the `taste` pass before you call it done.

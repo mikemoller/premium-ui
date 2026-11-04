@@ -105,3 +105,5 @@ The case for skeletons that holds is **layout stability**: if a skeleton matches
 - [ ] Routine deletes undo; errors never vanish in a toast; status messages use `role="status"`.
 
 Full notes and every source: [references/sources.md](references/sources.md).
+
+**Finish with `taste`.** Any screen or component you build or change with this skill gets the `taste` pass before you call it done.

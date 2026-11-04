@@ -1,6 +1,6 @@
 ---
 name: premium-feel
-description: Entry point for making a web or mobile app feel premium and well thought-out. Runs a prioritised review (speed, negative peaks, states, motion, mobile feel, craft) and routes to the focused skills — perceived-performance, ui-motion, mobile-native-feel, interface-craft, ux-psychology and aha-moment. Use when asked to make an app feel more premium, polished, native, delightful or "less cheap", to audit a screen or flow for quality, or when it's unclear which of the other skills applies.
+description: Entry point for making a web or mobile app feel premium and well thought-out. Runs a prioritised review (speed, negative peaks, states, mobile feel, motion, accessibility, craft, taste) and routes to the focused skills — perceived-performance, ui-motion, mobile-native-feel, accessibility, interface-craft, design-system, taste, ux-psychology and aha-moment. Use when asked to make an app feel more premium, polished, native, delightful or "less cheap", to audit a screen or flow for quality, or when it's unclear which of the other skills applies.
 ---
 
 # Premium feel
@@ -15,12 +15,14 @@ description: Entry point for making a web or mobile app feel premium and well th
 4. **Cover every state.** Empty, loading, error, offline, very long content, focus, pressed, disabled (`interface-craft`).
 5. **Make it native on phones.** Targets, press states, back behaviour, sheets, safe areas, keyboard, haptics in the shell (`mobile-native-feel`).
 6. **Add motion that explains.** Short, eased, interruptible, origin-aware, nothing on keyboard or very frequent actions, reduced motion respected (`ui-motion`).
-7. **Polish the details.** Tabular numbers, concentric radii, optical alignment, consistent icons, specific labels (`interface-craft`).
-8. **Design the end.** A calm, clear finish to bounded flows; rare, switchable celebration; no upsell at the last moment (`ux-psychology`).
+7. **Make it usable by everyone.** Contrast, names, keyboard, focus, forms, zoom and screen readers to WCAG 2.2 AA (`accessibility`).
+8. **Polish the details.** Tabular numbers, concentric radii, optical alignment, consistent icons, specific labels (`interface-craft`).
+9. **Design the end.** A calm, clear finish to bounded flows; rare, switchable celebration; no upsell at the last moment (`ux-psychology`).
+10. **Taste pass, always last.** Render it, name the generic tells, check hierarchy, type, colour and space, and fix in the project's tokens (`taste`). This runs after every task in the suite, not just full reviews.
 
 ## Before changing anything
 
-- Read the project's design system, tokens and component library, and express every fix in them. Never add a second styling system or an animation library for something CSS already does.
+- Read the project's design system, tokens, component library and `DESIGN.md`, and express every fix in them. If there are no tokens, or values are hard-coded and drifting, run `design-system` first. Never add a second styling system or an animation library for something CSS already does.
 - Note what the project already does well and keep it consistent; one inconsistent "improvement" makes the whole feel worse.
 
 ## Review output
@@ -43,5 +45,8 @@ Severity: **High** loses data, blocks a task or breaks the critical moment. **Me
 | `ui-motion` | Durations, easing, springs, enter/exit, interruptibility, View Transitions, reduced motion |
 | `mobile-native-feel` | Touch, haptics, back, sheets, safe areas, keyboard, scrolling, wake lock |
 | `interface-craft` | Typography, geometry, states, focus, icons, empty and error states, undo, copy |
+| `accessibility` | WCAG 2.2 AA audit and fixes: contrast, names, keyboard, dialogs, forms, zoom, screen readers |
+| `design-system` | Tokens, colour roles, type and spacing scales, dark mode, `DESIGN.md` |
+| `taste` | The final gate: anti-slop review, direction, and bolder / quieter / distill / typeset modes |
 
 Every rule in these skills links to the primary source it comes from, and each skill says where the evidence is weak.

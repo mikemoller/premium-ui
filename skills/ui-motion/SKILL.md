@@ -136,3 +136,5 @@ Use custom curves; the CSS keywords are weak.
 ## Evidence
 
 None of the durations or easing values here come from a controlled study. NN/g calls its ranges guidelines; Material and Apple are platform conventions; Emil Kowalski, Rauno Freiberg and Josh Comeau are practitioners writing from experience. The measured figures are the performance ones (web.dev's dropped-frame test). Sources disagree on exit easing (accelerate vs ease-out) and on the ceiling (Emil ≤300 ms, NN/g up to 400–500 ms). Full notes and every source: [references/sources.md](references/sources.md).
+
+**Finish with `taste`.** Any screen or component you build or change with this skill gets the `taste` pass before you call it done.
